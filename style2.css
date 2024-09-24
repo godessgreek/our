@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/image.jpg);
+    background-size: 1000px;
+}
+
+.container {
+    background: #ffe5e5ab;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 40px;
+}
+
+.container .tenor-gif-embed {
+    max-width: 200px;
+}
